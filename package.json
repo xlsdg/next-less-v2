@@ -1,0 +1,16 @@
+{
+  "name": "next-less-v2",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "less-loader": "^5.0.0"
+  },
+  "devDependencies": {
+    "less": "^3.9.0"
+  },
+  "peerDependencies": {
+    "less": "^3.9.0"
+  }
+}
