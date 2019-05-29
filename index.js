@@ -41,7 +41,7 @@ module.exports = (nextConfig = {}) => {
       const noCssModules = cssLoaderConfig(config, {
         extensions: ['less'],
         cssModules: false,
-        cssLoaderOptions: {},
+        cssLoaderOptions,
         postcssLoaderOptions,
         dev,
         isServer,
